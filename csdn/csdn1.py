@@ -98,7 +98,7 @@ else:
     if signdays == 5:
         import os
         strs = ('python csdnlucky.py')  # python命令 + csdnlucky.py
-        p = os.system(str)
+        # p = os.system(str)
         # print(p)  # 打印执行结果 0表示 success ， 1表示 fail
         from csdnlucky import option
         data = {
